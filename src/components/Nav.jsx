@@ -9,11 +9,11 @@ const Nav = (props) => {
         <nav className='text-white relative top-44 left-10'>
        
           <ul className='absolute text-xl font-bold '> 
-            <li className='mb-9'>Home</li>
-            <li className='mb-9'>AboutUs</li>
-            <li className='mb-9'>Events</li>
+            <li className='mb-9'><a href="/">Home</a></li>
+            <li className='mb-9'><a href="about">AboutUs</a></li>
+            <li className='mb-9'><a href="events">Events</a></li>
             <li className='mb-9'>TimeLine</li>
-            <li className='mb-9'>ContactUs</li>
+            <li className='mb-9'><a href="contactus">ContactUs</a></li>
           </ul>
         </nav>
      </main>
