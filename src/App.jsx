@@ -19,6 +19,7 @@ function App() {
   return (
     
      <section className="bg-yellow-400 h-screen w-auto relative ">
+      
       <Header />
       <Nav />
       <main className=''>
