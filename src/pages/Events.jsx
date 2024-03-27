@@ -4,7 +4,7 @@ import { techEvents } from '../constants'
 import { images } from '../constants'
 const Events = () => {
   return (
-    <div className='flex flex-col  justify-center items-start  absolute top-40 xl:left-[22%] left-8 '>
+    <div className='flex flex-col flex-wrap justify-center items-start  absolute top-40 xl:left-[22%] left-8 '>
     <div className='grid grid-flow-col gap-16 text-3xl font-semibold'>
       <h1 >Technical Events</h1>
       <h1>Non-Technical Events</h1>

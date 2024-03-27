@@ -11,14 +11,32 @@ import Tech from './events/Tech'
 import Nontech from './events/Nontech'
 import Special from './events/Special'
 
+import BIRDS from 'vanta/src/vanta.birds'
+import { useEffect } from 'react'
+
 function App() {
   
+  useEffect(()=>{
+    BIRDS({
+      el: "#vantajs",
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      minHeight: 200.00,
+      minWidth: 200.00,
+      scale: 1.00,
+      scaleMobile: 1.00,
+      backgroundColor: 0x0,
+      color2: 0xff7200,
+      quantity: 5.00
+    })
+  },[])
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   
   
   return (
     
-     <section className="bg-yellow-400 h-screen w-auto relative ">
+     <section id="vantajs" className=" h-screen w-auto relative text-white">
       
       <Header isOpen={isMenuOpen} setMenuStatus={setIsMenuOpen}/>
       <Nav isOpen={isMenuOpen}/>
@@ -28,8 +46,6 @@ function App() {
           <Route path='/' element={<Home />}></Route>
           <Route path='about' element={<About />} ></Route>
           <Route path='events' element={<Events />}></Route>
-          <Route path='events' element={<Events />}>
-          </Route>
           <Route path='contact' element={<Contacts/>}></Route>
           <Route path='/tech-events' element={<Tech/>}></Route>
       <Route path='/non-tech-events' element={<Nontech />}></Route>
