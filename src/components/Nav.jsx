@@ -1,9 +1,10 @@
 import React from 'react'
 
 const Nav = (props) => {
-    
+   const stylez = props.isOpen ? "hidden" :'block'
+   console.log(props.isOpen)
   return (
-     <main className='relative top-[10%] h-[90%] w-48  bg-black opacity-80  xl:block'>
+     <main className={`relative top-[10%] h-[90%] w-48  bg-black opacity-80 ${stylez}  xl:block `}>
         
         <nav className='text-white relative top-44 left-10'>
        

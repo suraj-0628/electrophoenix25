@@ -13,15 +13,15 @@ import Special from './events/Special'
 
 function App() {
   
- 
-  const [visible ,setVisile] =useState()
-
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  
+  
   return (
     
      <section className="bg-yellow-400 h-screen w-auto relative ">
       
-      <Header />
-      <Nav />
+      <Header isOpen={isMenuOpen} setMenuStatus={setIsMenuOpen}/>
+      <Nav isOpen={isMenuOpen}/>
       <main className=''>
         <BrowserRouter>
         <Routes >
