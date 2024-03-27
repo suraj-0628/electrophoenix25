@@ -1,8 +1,5 @@
 import React from 'react'
 import { BrowserRouter,Routes,Route,NavLink,Link } from 'react-router-dom'
-import Tech from '../events/Tech'
-import Nontech from '../events/Nontech'
-import Special from '../events/Special'
 
 const Events = () => {
   return (
