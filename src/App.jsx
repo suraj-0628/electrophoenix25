@@ -38,7 +38,7 @@ function App() {
     
      <section id="vantajs" className="width-full min-h-screen   relative text-white p-0 m-0">
 
-    <Header isOpen={isMenuOpen} setMenuStatus={setIsMenuOpen}/>
+    
       
       <Nav isOpen={isMenuOpen}/>
       
@@ -54,7 +54,7 @@ function App() {
       <Route path='/special-events' element={<Special />}></Route>
         </Routes>
         </BrowserRouter>
-      
+        <Header isOpen={isMenuOpen} setMenuStatus={setIsMenuOpen}/>
       </main>
       {/* Home 
       Aboutus 
