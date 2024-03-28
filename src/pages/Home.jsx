@@ -5,7 +5,7 @@ const Home = () => {
 
   return (
     <div className='flex  justify-center items-center  text-white'>
-       <div className='flex flex-col justify-center items-center absolute top-32 w-[80vw]'><h1 className='text-4xl xl:text-6xl font-bold '>Welcome to Electrophoenix 24 </h1>
+       <div className='flex flex-col justify-center items-center absolute top-48 w-[80vw]'><h1 className='text-4xl xl:text-6xl font-bold '>Welcome to Electrophoenix 24 </h1>
        <p  className='font-semibold text-2xl xl:text-4xl mt-5 xl:mt-10 '><TypeAnimation 
           sequence={[
             // Same substring at the start will only be typed out once, initially
@@ -23,7 +23,9 @@ const Home = () => {
           style={{  display: 'inline-block' }}
           repeat={Infinity}
        /></p>
-
+       <div className='mt-36 text-xl'>
+        <a href="https://docs.google.com/forms/d/1fuAJGM22ECClnqzNPcm13szKxCV1_X6rWiC0STOygzY/viewform?pli=1&pli=1&edit_requested=true"><button className='border-solid bg-orange-600 px-9 py-3 rounded-xl hover:bg-orange-400 hover:text-2xl'>Register Now !</button></a>
+       </div>
 
        
        </div>

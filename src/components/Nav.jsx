@@ -12,7 +12,6 @@ const Nav = (props) => {
             <li className='mb-9'><a href="/">Home</a></li>
             <li className='mb-9'><a href="about">AboutUs</a></li>
             <li className='mb-9'><a href="events">Events</a></li>
-            <li className='mb-9'>TimeLine</li>
             <li className='mb-9'><a href="contactus">ContactUs</a></li>
           </ul>
         </nav>
