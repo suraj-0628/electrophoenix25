@@ -6,7 +6,7 @@ const Header = (props) => {
  
   
   return (
-    <div className='bg-black text-white flex justify-center items-center h-20 absolute  w-[100vw] overflow-hidden' >
+    <div className='bg-black text-white flex justify-center items-center h-20 fixed top-0 w-[100vw] ' >
         <div className='absolute top-0 left-0 py-7 px-5 xl:px-20 xl:hidden md:hidden'>
          <div  className='absolute top-5 left-2'>
           <div onClick={() => {

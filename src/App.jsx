@@ -36,10 +36,12 @@ function App() {
   
   return (
     
-     <section id="vantajs" className=" h-screen w-auto relative bg-fixed text-white">
+     <section id="vantajs" className="width-full min-h-screen   relative text-white p-0 m-0">
+
+    <Header isOpen={isMenuOpen} setMenuStatus={setIsMenuOpen}/>
       
-      <Header isOpen={isMenuOpen} setMenuStatus={setIsMenuOpen}/>
       <Nav isOpen={isMenuOpen}/>
+      
       <main className=''>
         <BrowserRouter>
         <Routes >
