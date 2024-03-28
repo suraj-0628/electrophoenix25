@@ -36,7 +36,7 @@ function App() {
   
   return (
     
-     <section id="vantajs" className=" h-screen w-auto relative text-white">
+     <section id="vantajs" className=" h-screen w-auto relative bg-fixed text-white">
       
       <Header isOpen={isMenuOpen} setMenuStatus={setIsMenuOpen}/>
       <Nav isOpen={isMenuOpen}/>
