@@ -40,7 +40,7 @@ function App() {
 
     
       
-      <Nav isOpen={isMenuOpen}/>
+
       
       <main className=''>
         <BrowserRouter>
@@ -49,12 +49,16 @@ function App() {
           <Route path='about' element={<About />} ></Route>
           <Route path='events' element={<Events />}></Route>
           <Route path='contact' element={<Contacts/>}></Route>
+        
           <Route path='/tech-events' element={<Tech/>}></Route>
       <Route path='/non-tech-events' element={<Nontech />}></Route>
       <Route path='/special-events' element={<Special />}></Route>
         </Routes>
         </BrowserRouter>
+        <Nav isOpen={isMenuOpen}/>
         <Header isOpen={isMenuOpen} setMenuStatus={setIsMenuOpen}/>
+        
+
       </main>
       {/* Home 
       Aboutus 
