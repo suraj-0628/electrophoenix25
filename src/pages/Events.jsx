@@ -4,27 +4,12 @@ import { techEvents } from '../constants'
 import { images } from '../constants'
 const Events = () => {
   return (
-    <div className='flex flex-col flex-wrap justify-center items-start  absolute top-40 xl:left-[22%] left-8 '>
-    <div className='grid grid-flow-col gap-16 text-3xl font-semibold'>
-      <h1 >Technical Events</h1>
-      <h1>Non-Technical Events</h1>
-      <h1>special Events</h1>
+    <div className='w-[80%] relative top-32 xl:left-36'>
      
-    </div>
-    <div className='flex gap-10 mt-16'>
-      
-      
-              <div className='flex gap-32 '>
-               {images.map((i)=>(
-                
-                 <img className='rounded-xl h-[200px] w-[200px]' src={i.src} alt={i.alt}  height={300} width={300} />
-               ))}
-               
-               </div>
-              
-        
-    </div>
-    </div>
+    <div className='text-white text-xl font-extralight '> /Events</div>
+    <h1 className='text-5xl text-white  font-extrabold top-64 mt-16'>Comming Soon...</h1>
+ 
+   </div>
 
   )
 }

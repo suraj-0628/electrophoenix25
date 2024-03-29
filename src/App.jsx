@@ -42,29 +42,25 @@ function App() {
       
 
       
-      <main className=''>
+      <main className='flex  justify-center items-center '>
         <BrowserRouter>
         <Routes >
           <Route path='/' element={<Home />}></Route>
           <Route path='about' element={<About />} ></Route>
           <Route path='events' element={<Events />}></Route>
-          <Route path='contact' element={<Contacts/>}></Route>
+          <Route path='contactus' element={<Contacts/>}></Route>
         
           <Route path='/tech-events' element={<Tech/>}></Route>
       <Route path='/non-tech-events' element={<Nontech />}></Route>
       <Route path='/special-events' element={<Special />}></Route>
         </Routes>
         </BrowserRouter>
-        <Nav isOpen={isMenuOpen}/>
-        <Header isOpen={isMenuOpen} setMenuStatus={setIsMenuOpen}/>
-        
+       
 
       </main>
-      {/* Home 
-      Aboutus 
-      Events 
-      Timeline 
-      Contacts  */}
+      <Nav isOpen={isMenuOpen}/>
+      <Header isOpen={isMenuOpen} setMenuStatus={setIsMenuOpen}/>
+        
      </section>
     
   )

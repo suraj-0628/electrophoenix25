@@ -4,7 +4,7 @@ const Nav = (props) => {
    const stylez = props.isOpen ? "block" :'hidden'
    console.log(props.isOpen)
   return (
-     <main className={`absolute top-[8%] h-[97.1vh] w-48  bg-black  opacity-90 ${stylez}  xl:block `}>
+     <main className={`absolute top-[8%] h-[92vh] w-48  bg-black  opacity-90 ${stylez}  xl:block `}>
         
         <nav className='text-white  relative top-44 left-10'>
        
