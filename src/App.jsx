@@ -7,9 +7,7 @@ import About from './pages/About'
 import Events from './pages/Events'
 import Contacts from './pages/Contact'
 import { useState } from 'react'
-import Tech from './events/Tech'
-import Nontech from './events/Nontech'
-import Special from './events/Special'
+
 
 import BIRDS from 'vanta/src/vanta.birds'
 import { useEffect } from 'react'
@@ -50,9 +48,6 @@ function App() {
           <Route path='events' element={<Events />}></Route>
           <Route path='contactus' element={<Contacts/>}></Route>
         
-          <Route path='/tech-events' element={<Tech/>}></Route>
-      <Route path='/non-tech-events' element={<Nontech />}></Route>
-      <Route path='/special-events' element={<Special />}></Route>
         </Routes>
         </BrowserRouter>
        

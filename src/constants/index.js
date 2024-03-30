@@ -22,16 +22,7 @@ export const nonTechEvents =[
 ]
 
 export const specialEvents =[
-    { href: "/linefollower", label: "Line Follower" },
-    { href: "/roborace", label: "Robo Race" },
+    {  label: "Line Follower" },
+    { label: "Robo Race" },
     
-   
-]
-
-export const images =[
-    {src:"ckt_debugging.jpg",alt:"circuit debugging"},
-    {src:"projectexpo.jpg",alt:"project expo"},
-    {src:"th_7.jpeg",alt:"paper presentation"},
-
-
-]
+];
