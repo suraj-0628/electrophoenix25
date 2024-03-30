@@ -39,9 +39,9 @@ function App() {
     
       
 
-      
+      <BrowserRouter>
       <main className='flex  justify-center items-center '>
-        <BrowserRouter>
+       
         <Routes >
           <Route path='/' element={<Home />}></Route>
           <Route path='about' element={<About />} ></Route>
@@ -49,11 +49,14 @@ function App() {
           <Route path='contactus' element={<Contacts/>}></Route>
         
         </Routes>
-        </BrowserRouter>
+       
+        
        
 
       </main>
-      <Nav isOpen={isMenuOpen}/>
+      <Nav  setMenuStatus={setIsMenuOpen}  isOpen={isMenuOpen}/>
+      {/* nav here */}
+      </BrowserRouter>
       <Header isOpen={isMenuOpen} setMenuStatus={setIsMenuOpen}/>
         
      </section>
