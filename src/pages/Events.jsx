@@ -14,7 +14,7 @@ const Events = () => {
   
  
   return (
-    <div className='w-[80%] xl:left-36 h-[380vh] xl:h-[200vh]'>
+    <div className='w-[80%] xl:left-36 h-[380vh] xl:h-[180vh]'>
     <div className='relative top-32 xl:left-36'>
    <div className='text-white text-xl font-extralight '> /Events</div>
    <div className='text-3xl text-white  font-extrabold top-64 mt-5 xl:mt-12'>

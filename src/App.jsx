@@ -26,7 +26,7 @@ function App() {
       scaleMobile: 1.00,
       backgroundColor: 0x0,
       color2: 0xff7200,
-      quantity: 5.00
+      quantity: 4.00
     })
   },[])
   const [isMenuOpen, setIsMenuOpen] = useState(false);

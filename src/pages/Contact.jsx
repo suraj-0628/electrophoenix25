@@ -1,41 +1,39 @@
 import React from 'react'
 import { useState } from 'react';
 import ReactCardFlip from 'react-card-flip'
+import CktDebug from '../events/CktDebug';
+import ContactF1 from '../contactCards/ContactF1';
+import ContactF2 from '../contactCards/ContactF2';
+import ContactF3 from '../contactCards/ContactF3';
+import ContactF4 from '../contactCards/ContactF4';
+import ContactS1 from '../contactCards/ContactS1';
+import ContactS2 from '../contactCards/ContactS2';
 const Contact = () => {
 
 
   const [flip, setFlip] = useState(false);
   return (
-    <div className='w-[80%] relative top-32 xl:left-36'>
-     
+    <div className='w-[80%] relative h-[300vh]  xl:left-36 xl:h-[150vh]'>
+     <div className='relative top-32 '>
       <div className=' font-extralight '> /contact us</div>
       <div className='font-extrabold top-64 mt-5 xl:mt-12'>
-      <div className=' w-fit '>
-      <ReactCardFlip  isFlipped={flip}
-            flipDirection="horizontal">
-            <div  className='w-[250px] h-[250px] bg-white opacity-80 text-3xl  rounded-lg p-5' onClick={() => setFlip(!flip)} >
-            <div className='flex flex-col justify-center h-full text-2xl text-black'>
-               <h1 >Overall Event Coordinator</h1>
-               
-               </div>
-            </div>
-            <div className='w-[250px] h-[250px] bg-orange-400 text-3xl  rounded-lg p-5' onClick={() => setFlip(!flip)} style={{
-                // width: '300px',
-                // height: '250px',
-                // background: '#fbd7f8',
-                // fontSize: '40px',
-                // color: 'blue',
-                // margin: '20px',
-                // borderRadius: '4px',
-                // textAlign: 'center',
-                // padding: '20px'
-            }}>
-               <div className='flex flex-col justify-center h-full text-2xl'>
-               <h1 >Contact:</h1>
-               <p>+91 9999999999</p>
-               </div>
-            </div>
-        </ReactCardFlip>
+      <div>
+        <h1 className='text-3xl mb-5'>Faculty Coordinators</h1>
+      <div className='flex flex-row gap-10 flex-wrap'>
+      <ContactF1 />
+        <ContactF2 />
+        <ContactF3 />
+        <ContactF4 />
+      </div>
+      </div>
+       {/* students below  */}
+       <div className='mt-10'>
+        <h1 className='text-3xl mb-5'>Student Coordinators</h1>
+      <div className='flex flex-row gap-10 flex-wrap'>
+      <ContactS1 />
+      <ContactS2 />  
+      </div>
+      </div>
       </div>
       </div>
      </div>
