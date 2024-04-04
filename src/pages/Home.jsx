@@ -14,7 +14,7 @@ const Home = () => {
             500, // wait 1s before replacing 
             'By The Department of Electrical Sciences',
             500,
-            'Symposium on 18 April 2024',
+            'Symposium on 16 April 2024',
             500,
           
           ]}
