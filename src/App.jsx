@@ -4,6 +4,7 @@ import Header from './components/Header'
 import Nav from './components/Nav'
 import Home from './pages/Home'
 import About from './pages/About'
+import NewAbout from './pages/NewAbout'
 import Events from './pages/Events'
 import Contacts from './pages/Contact'
 import { useState } from 'react'
@@ -44,7 +45,7 @@ function App() {
        
         <Routes >
           <Route path='/' element={<Home />}></Route>
-          <Route path='about' element={<About />} ></Route>
+          <Route path='about' element={<NewAbout />} ></Route>
           <Route path='events' element={<Events />}></Route>
           <Route path='contactus' element={<Contacts/>}></Route>
         

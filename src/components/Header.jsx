@@ -21,7 +21,7 @@ const Header = (props) => {
         </div>
          <div className='flex justify-center items-center ml-6'>
           <img className='h-[30%] w-[20%] xl:h-[20%] xl:w-[10%]' src="/phoenix+rising.png" alt="logo" />
-         <h1 className='xl:text-3xl text-xl xl:ml-1 font-extrabold'>Electrophoenix'24</h1></div>
+         <h1 className='xl:text-3xl text-xl xl:ml-1 font-extrabold'>Electrophoenix'25</h1></div>
          <div>
           
          </div>

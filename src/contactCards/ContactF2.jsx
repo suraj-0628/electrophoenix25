@@ -8,7 +8,7 @@ const ContactF2 = () => {
     flipDirection="horizontal">
     <div  className='w-[250px] h-[250px] bg-orange-500 opacity-80 text-3xl  rounded-lg p-5' onMouseEnter={() => setFlip(!flip)} >
     <div className='flex flex-col justify-center h-full text-2xl text-white'>
-    <h1 className='font-bold'>Mr.G.VINOTH</h1>
+    <h1 className='font-bold'>Mr.E .KRISHNAKUMAR</h1>
        
        </div>
     </div>
@@ -16,7 +16,7 @@ const ContactF2 = () => {
        <div className='flex flex-col justify-center h-full text-2xl'>
        
        <h1 className='mt-2 font-bold'>Contact:</h1>
-       <p className='font-normal'>+91 9629177833</p>
+       <p className='font-normal'>8072024129</p>
        </div>
     </div>
 </ReactCardFlip>

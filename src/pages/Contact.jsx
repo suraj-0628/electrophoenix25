@@ -23,7 +23,7 @@ const Contact = () => {
       <ContactF1 />
         <ContactF2 />
         <ContactF3 />
-        <ContactF4 />
+        {/* <ContactF4 /> */}
       </div>
       </div>
        {/* students below  */}

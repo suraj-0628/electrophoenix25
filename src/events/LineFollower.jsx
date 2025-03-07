@@ -15,10 +15,10 @@ const LineFollower = () => {
     {/* on flip below*/}
     <div className='w-[250px] h-[250px] bg-orange-500 text-3xl  rounded-lg p-5' onMouseLeave={() => setFlip(!flip)}  >
        <div className='flex flex-col justify-center h-full text-2xl'>
-        <h1 className='font-bold'>LineFollower RuleBook:</h1>
-        <a className='font-normal text-blue-600 underline w-fit' href="https://docs.google.com/forms/d/1fuAJGM22ECClnqzNPcm13szKxCV1_X6rWiC0STOygzY/viewform?pli=1&pli=1&edit_requested=true">Drive Link</a>
+        
        <h1 className='mt-2 font-bold'>Contact:</h1>
-       <p className='font-normal'>+91 9999999999</p>
+       <p className='font-normal'>AK TAMIZHARASAN : 8438686030</p>
+       <p className='font-normal'>VISHAL : 9789195475</p>
        </div>
     </div>
 </ReactCardFlip>

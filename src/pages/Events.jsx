@@ -10,6 +10,8 @@ import ProjectExpo from '../events/ProjectExpo';
 import PaperPresentation from '../events/PaperPresentation';
 import Photography from '../events/Photography';
 import TreassureHunt from '../events/TreasureHunt';
+import RoboSumo from '../events/RoboSumo';
+import DroneRace from '../events/DroneRace';
 const Events = () => {
   
  
@@ -20,11 +22,13 @@ const Events = () => {
    <div className='text-3xl text-white  font-extrabold top-64 mt-5 xl:mt-12'>
      <h1>Special Events</h1>
      {/*  */}
-     <div  className=' xl:w-[90%] mt-5 flex flex-wrap gap-10  xl:flex xl:flex-row
+     <div  className=' xl:w-[100%] mt-5 flex flex-wrap gap-10  xl:flex xl:flex-row
      xl:gap-10'>
       {/* slide hhere */}
      <LineFollower />
      <RoboRace />
+     <RoboSumo />
+     <DroneRace />
    </div>
    </div>
 
